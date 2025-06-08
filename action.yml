@@ -136,7 +136,6 @@ runs:
         claude_access_token: ${{ inputs.claude_access_token }}
         claude_refresh_token: ${{ inputs.claude_refresh_token }}
         claude_expires_at: ${{ inputs.claude_expires_at }}
-        claude_env: ${{ inputs.claude_env }}
       env:
         # Model configuration
         ANTHROPIC_MODEL: ${{ inputs.model || inputs.anthropic_model }}
